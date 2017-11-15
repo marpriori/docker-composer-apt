@@ -1,7 +1,7 @@
 # Composer Docker Container
 # Base Dockerfile: composer/base-alpine
 FROM php:7.0-alpine
-MAINTAINER Rob Loach <robloach@gmail.com>
+MAINTAINER Marpriori <marcimpriori@gmail.com>
 
 # Packages
 RUN apk --update add \
@@ -15,7 +15,6 @@ RUN apk --update add \
     libmcrypt-dev \
     libpng-dev \
     libbz2 \
-    apt-get \
     libstdc++ \
     libxslt-dev \
     openldap-dev \
